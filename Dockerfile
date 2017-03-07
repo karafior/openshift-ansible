@@ -3,7 +3,7 @@ FROM fedora
 RUN \
   dnf \
     --assumeyes \
-    install ansible-2.2.0 tar &&\
+    install ansible tar &&\
   dnf clean all;
 
 RUN \
