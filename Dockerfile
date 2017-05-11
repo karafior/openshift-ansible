@@ -3,7 +3,7 @@ FROM fedora
 RUN \
   dnf \
     --assumeyes \
-    install ansible tar &&\
+    install ansible tar openssh-clients &&\
   dnf clean all;
 
 RUN \
